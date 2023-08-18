@@ -119,5 +119,5 @@ def main(page: ft.Page):
     page.add(
         cont,
     )
-
-ft.app(target=main)
+    
+ft.app(port=8551, target=main, view=ft.WEB_BROWSER)
